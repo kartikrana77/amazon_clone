@@ -136,7 +136,13 @@
     <br />
     <a href="https://www.google.co.in/">Google</a>
     <br />
-    <table>
+    <br/>
+   <big> <table border="1">
+      <caption>Hello Table</caption><!--give heding to table -->
+      <colgroup><!--specify group of column in a talbe-->
+        <col span="1" style="background-color: green;"><!--specify column property-->
+        <col span="1"style="background-color: blue;">
+    </colgroup>
       <thead>
         <tr>
           <th>Heading</th>
@@ -161,9 +167,11 @@
           <td>hello9</td>
         </tr>
       </tbody>
-    </table>
+    </table></big>
     <br />
-    <form>
+    <fieldset><!--used to group related tags into a form-->
+      <form> <legend>Personal Info</legend><!--define caption for feild set-->
+      
       <img
         src="https://th.bing.com/th/id/OIP.JYD61YlL9cqPVyiKEMWplAHaHa?pid=ImgDet&rs=1"
         width="30"
@@ -187,7 +195,8 @@
         <option for="india">India</option>
         <option for="usa">Usa</option>
         <option for="australia">Australia</option></select
-      ><br />
+      ></fieldset>
+      <br />
       <br />
       <lable>Job Type</lable><br />
       <input type="radio" name="job type" value="part time" id="part time" />
@@ -211,7 +220,14 @@
       />
       <label for="fulltime">Full Time</label>
       <br />
-
+      <input list="Menu">
+      <datalist id="Menu">,
+        <option>Goku</option><!--this tag is used to give options-->
+        <option>Saitama</option>
+        <option>Conclusion</option>
+      </datalist> <!--It is used to show submit list-->
+    <input type="submit">
+<br/><br/>
       <button>submit</button>
     </form>
     <img
@@ -311,12 +327,30 @@ currently</big></pre>
     /><!--embed tage is used to contain multimedia files which dont have tags for them-->
     <br/>
     <br/>
-    <ruby><!--ruby tage is apper above the text to tell about the text in small words like discription and full form it is like a container-->
+    <big><ruby><!--ruby tage is apper above the text to tell about the text in small words like discription and full form it is like a container-->
       <rb>PD</rb><!--it base that held main text--><rt> Pendrive is around 500rs></rt><!--It tell the info about rb-->is used to store data
-    </ruby>
+    </ruby></big>
     <br/>
-    <address>Kartik Rana email-215kartik@gmail.com</address>
-    <!--address tag is used to give information about owner -->
+    <svg width="700" height="700" style="border: 3px solid green;"><!--this tag is used to creat vector graphice in website-->
+
+  <rect width="250" height="250" fill="red" stroke="yellow" stroke-width="2px">
+    <circle cx="350" cy="350" r="200" fill="green" stroke="black" stroke-width="2px">
+    </svg>
+    <br/>
+    <meter
+      low="10"
+      high="35"
+      min="0"
+      max="100"
+      value="38"
+      style="width: 7cm; height: 1cm"
+    >
+      38</meter
+    ><!--show the mesurement with in the range-->
+  
+     
+     <address>Kartik Rana email-215kartik@gmail.com</address>
+     <!--address tag is used to give information about owner -->
     <br />
     <footer>@2023-2025 All rights reserved to kartik rana</footer>
     <!--footer is used to give information about author and his relationship wiht website llike copyright info-->
