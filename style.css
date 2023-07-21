@@ -1,18 +1,27 @@
 h1 {
-    background-color: rgb(4, 156, 156);
+    background-color: rgb(26, 160, 160);
     
-}
+}/* this is used to make changes in a particulur element*/
 #headingtwo {
-    background-color: rgb(95, 95, 247);
-}
+    background-color: rgb(137, 137, 238);
+}/*this is used to make changes in element with a unique id*/
+
+/* *{ it is a universal element which apply the change tko every thing}
+*/
+
 h2{
     color:rgb(185, 5, 5)
 }
+
+
 body {
     background-color:rgb(190, 235, 229);
 }
 
+
 button{
     color:red;
-    background-color:blue
+    background-color:rgb(236, 146, 9)
 }
+
+.first-A {  color:rgb(72, 18, 223)}/*this is used to change the style of all the elements who are in same class*/
