@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(184, 202, 207);
+}
+
+#summary1{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#div1{
+    background-color: brown;
+}
+
+#navigation2{text-align: right;}
+
+
+#heading1one{
+    text-align: center;
+    text-decoration: red double underline;
+}
+
+#image1{
+    display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+#heading1two{
+    text-align: center;
+    text-decoration: red double underline;
+}
+
+#paragraph1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
+
+#image2{
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#image3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
