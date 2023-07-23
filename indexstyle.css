@@ -14,37 +14,42 @@ body{
 #navigation2{text-align: right;}
 
 
-#heading1one{
+.heading{
     text-align: center;
     text-decoration: red double underline;
 }
 
-#image1{
+.image{
     display: block;
 margin-left: auto;
 margin-right: auto;
 }
 
-#heading1two{
-    text-align: center;
-    text-decoration: red double underline;
-}
 
-#paragraph1{
+
+.paragraph{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 30px;
 }
 
-#image2{
-   display: block;
-    margin-left: auto;
-    margin-right: auto;
-    
+
+
+#heading1three{
+    text-align: center;
+    text-decoration: red double underline;
+    font-size: 40px;
 }
 
-#image3{
+
+video{
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+
+#heading2one,#heading2two,#heading2three,#heading2four{
+    text-decoration: none;
+    font-size: 35;
+}
+ 
