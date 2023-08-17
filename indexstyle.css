@@ -9,6 +9,11 @@ body{
 
 #div1{
     background-color: brown;
+    height: 100px;
+    width: 1900px;
+    border-width: 6px;
+    border-style: dashed; 
+    border-color: black;
 }
 
 #navigation2{text-align: right;}
@@ -17,6 +22,15 @@ body{
 #heading1one{
     text-align: center;
     text-decoration: red double underline;
+    height: 100px;
+    width: 1830px;
+    background-color: orange;
+   /* border-width: 6px;
+    border-color: black;
+    border-style: double;
+    text-align: center;*/
+    border: 6px double black;
+    border-radius: 20px;
 }
 
 #image1{
@@ -28,6 +42,7 @@ margin-right: auto;
 #heading1two{
     text-align: center;
     text-decoration: red double underline;
+    
 }
 
 #paragraph1{
@@ -47,4 +62,34 @@ margin-right: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+#div2{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+#div3{
+    height: 350px;
+    width: 1835px;
+    text-align: center;
+    font-size: 22px;
+    background-color: rgb(226, 123, 26);
+   /* padding-left: 25px;
+    padding-right:25px ;
+    padding-top: 25px;
+    padding-bottom: 25px;*/
+    border: 6px solid black;
+    padding: 25px;
+   /* margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;*/
+    margin: 25px;
 }
