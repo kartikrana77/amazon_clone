@@ -97,3 +97,83 @@ text-transform: capitalize;}
     margin-left: 7px;
 }
 
+
+#div2{
+font-size: 30px;
+font-weight: 600;
+background-color: blueviolet;
+display: inline;
+
+}
+
+#button2{
+    display: block;
+}
+
+.boxdiv{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline;
+}
+
+#box1{
+    background-color: red;
+}
+
+
+#box2{
+
+    background-color: green;
+}
+
+#box3{
+
+    background-color: blue;
+}
+
+
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
+
+#boxa{
+    background-color: red;
+}
+
+
+#boxb{
+
+    background-color: green;
+    visibility: hidden;
+}
+
+#boxc{
+
+    background-color: blue;
+}
+
+.box2{
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
+
+#box2a{
+    background-color: rgba(255,0,0,1)
+}
+
+
+#box2b{
+
+    background-color: rgba(255,0,0,0.5);
+
+}
+
