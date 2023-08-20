@@ -15,6 +15,7 @@ h1#heading1two {
 
 body {
     background-color:rgb(190, 235, 229);
+    font-size: 16px;
 }
 
 
@@ -174,6 +175,40 @@ display: inline;
 #box2b{
 
     background-color: rgba(255,0,0,0.5);
-
+/*a means opacity*/
 }
 
+hr{
+    height: 3px;
+    background-color: black;
+}
+
+#square1{
+    background-color: red;
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    font-size: 10px;
+}
+
+#square2{
+    background-color: yellow;
+    border: 2px solid black;
+    height: 50%;
+    width: 50%;
+ margin: 22.5%;
+ font-size: 2em;
+ /*2 times of parents size 2em*/
+}
+
+#box3{
+    background-color: green;
+    border: 2px solid black;
+    height: 30vh;
+    width: 30vh;
+    /*vh represent total hieght of browser 30vh means 30% of whole */
+    font-size: 2rem;
+    /* 2 times of body or root element font size 2rem*/
+    font-weight: 700;
+
+}
