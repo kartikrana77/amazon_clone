@@ -1,80 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="author" content="Kartik" />
-    <meta name="discription" content="This is the Css project Amazon Clone"/>
+    <meta name="discription" content="This is the Css project Amazon Clone" />
 
-    <title>Amazon Clone</title>
+    <title>Amazon.com.</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="amazon.css">
-
-
-</head>
-<body>
-    <div class="navbar">
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="amazon.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
         <div class="nav-logo border">
-            <div class="logo"></div>
+          <div class="logo"></div>
         </div>
 
         <div class="nav-address border">
-            <p  class="add-1">Deliver to</p>
-            <div class="add-icon">
-                <i class="fa-solid fa-location-dot"></i>
-                <p class="add-2">India</p>
-            </div>
+          <p class="add-1">Deliver to</p>
+          <div class="add-icon">
+            <i class="fa-solid fa-location-dot"></i>
+            <p class="add-2">India</p>
+          </div>
         </div>
 
         <div class="nav-search">
-            <select class="nav-select">
-                <option>All</option>
-            </select>
+          <select class="nav-select">
+            <option>All</option>
+          </select>
 
-            <input placeholder="Search Amazon" class="nav-input">
-            
-            <div class="search-icon">
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </div>
+          <input placeholder="Search Amazon" class="nav-input" />
 
+          <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
         </div>
 
         <span class="nav-lang border">
-            <span class="lang-icon">
-                <img src="saved/india.png" class="lang-img">
-            </span>
-            <select class="lang-select">
-                <option>EN</option>
-                <option>English</option>
-                <option>Hindi</option>
-                <option>Bengali</option>
-                <option>Punjabi</option>
-                <option>Telgu</option>
-            </select>
+          <span class="lang-icon">
+            <img src="saved/india.png" class="lang-img" />
+          </span>
+          <select class="lang-select">
+            <option>EN</option>
+            <option>English</option>
+            <option>Hindi</option>
+            <option>Bengali</option>
+            <option>Punjabi</option>
+            <option>Telgu</option>
+          </select>
         </span>
 
         <div class="nav-signin border">
-            <p> <span class="span-in">Hello,sign in</span></p>
-            <p class="p-in">Account & List</p>
+          <p><span class="span-in">Hello,sign in</span></p>
+          <p class="p-in">Account & List</p>
         </div>
-
 
         <div class="nav-order border">
-            <p> <span class="span-in">Returns</span></p>
-            <p class="p-in">&Orders</p>
+          <p><span class="span-in">Returns</span></p>
+          <p class="p-in">&Orders</p>
         </div>
 
+        <div class="nav-cart border">
+          <i class="fa-solid fa-cart-arrow-down"></i>
+          Cart
+        </div>
+      </div>
 
-        <div class="nav-cart">
-            <i class="fa-solid fa-cart-arrow-down"></i>
-            Cart
+      <div class="panal">
+        <div class="panal-all border">
+          <i class="fa-solid fa-bars"></i>
+          All
+        </div>
+        <div class="panal-ops">
+          <a class="ops-a border" href="#">Today's Deals</a>
+          <a class="ops-a border" href="#"> Customer Service</a>
+          <a class="ops-a border" href="#">Registry</a>
+          <a class="ops-a border" href="#">Gift Card</a>
+          <a class="ops-a border" href="#">Sell</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="hero-section">
+        <div class="hero-section-img">
+          <div class="hero-msg">
+            You are on amazon.com. You can also shop on Amazon India for
+            millions of products with fast local delivery.
+            <a href="#">Click here to go to amazon.in</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="shop-content">
+        <div class="cont-container1">
+          <div class="cont-box">
+            <div class="box-cont">
+              <h2>Clothes</h2>
+              <a href="#"><div
+                class="shop-img"
+                style="background-image: url('saved/box1_image.jpg')"
+              ></div></a>
+
+              <a href="#">See more</a>
+            </div>
+          </div>
+
+          <div class="cont-box">
+            <div class="box-cont">
+              <h2>Health & Personal Care</h2>
+              
+              <a href="#"><div
+                class="shop-img"
+                style="background-image: url('saved/box2_image.jpg')"
+              ></div></a>
+
+              <a href="#">See more</a>
+            </div>
+          </div>
+
+          <div class="cont-box">
+            <div class="box-cont">
+              <h2>Home & Furniture</h2>
+             <a href="#"> <div
+                class="shop-img"
+                style="background-image: url('saved/box3_image.jpg')"
+              ></div></a>
+
+              <a href="#">See more</a>
+            </div>
+          </div>
+
+          <div class="cont-box">
+            <div class="box-cont">
+              <h2>Smartphones</h2>
+              <a href="#"> <div
+                class="shop-img"
+                style="background-image: url('saved/box4_image.jpg')"
+              ></div></a>
+
+              <a href="#">See more</a>
+            </div>
+          </div>
         </div>
 
-    </div>
-</body>
+        <div class="cont-container2">
+          <div class="cont-box">
+            <div class="box-cont">
+              <h2>Makeup</h2>
+              <a href="#">  <div
+                class="shop-img"
+                style="background-image: url('saved/box5_image.jpg')"
+              ></div></a>
+
+              <a href="#">See more</a>
+            </div>
+          </div>
+
+           <div class="cont-box">
+            <div class="box-cont">
+              <h2>Pet and Accessories</h2>
+              <a href="#">  <div
+                class="shop-img"
+                style="background-image: url('saved/box6_image.jpg')"
+              ></div> </a>
+
+              <a href="#">See more</a>
+            </div>
+          </div>
+
+          <div class="cont-box">
+            <div class="box-cont">
+              <h2>Toys Under 30$</h2>
+              <a href="#"> <div
+                class="shop-img"
+                style="background-image: url('saved/box7_image.jpg')"
+              ></div></a>
+
+              <a href="#">See more</a>
+            </div>
+          </div>
+
+          <div class="cont-box">
+            <div class="box-cont">
+              <h2>Women Fashion</h2>
+              <a href="#"> <div
+                class="shop-img"
+                style="background-image: url('saved/box8_image.jpg')"
+              ></div></a>
+
+              <a href="#">See more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="medic-shop">
+        <div class="medic-cont">
+            <h2>Frequently repurchased in Drugstore</h2>
+            <br>
+            <div class="container-medic">
+                <a class="medic-img" href="#"><div class="medic-box"  style="background-image: url('saved/medical1.jpeg'); width: 270px;" ></div></a>
+                <a class="medic-img" href="#"><div class="medic-box"  style="background-image: url('saved/medical2.jpeg'); width: 42px;" ></div></a>
+                <a class="medic-img" href="#"><div class="medic-box"  style="background-image: url('saved/medical3.jpeg'); width: 192px;" ></div></a>
+                <a class="medic-img" href="#"><div class="medic-box"  style="background-image: url('saved/medical4.jpeg'); width: 110px;" ></div></a>
+                <a class="medic-img" href="#" ><div class="medic-box"  style="background-image: url('saved/medical5.jpeg'); width: 253px;" ></div></a>
+                <a class="medic-img" href="#" ><div class="medic-box"  style="background-image: url('saved/medical6.jpeg'); width: 200px;" ></div></a>
+                <a class="medic-img" href="#"><div class="medic-box"  style="background-image: url('saved/medical7.jpeg'); width: 92px;" ></div></a>
+            </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
